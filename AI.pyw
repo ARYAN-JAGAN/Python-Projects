@@ -34,18 +34,11 @@ print(r"""
                                                                                                                                                                                                 
 """)
 
-order_list = "https://www.amazon.in/?ext_vrnc=hi&tag=googhydrabk-21&ascsubtag=_k_EAIaIQobChMIwKX05duU8AIVRXZgCh2DlgAKEAAYASAAEgJO3vD_BwE_k_&ext_vrnc=hi&gclid=EAIaIQobChMIwKX05duU8AIVRXZgCh2DlgAKEAAYASAAEgJO3vD_BwE&ref_=nav_signin&"
-
 global AI_Name
 
 dictionary = PyDictionary()
 r = sr.Recognizer()
 engine = pyttsx3.init()
-email_list = {
-    '  bro': 'dselvajagan@gmail.com',
-    '  mother': 'meegaponselvi5373@gmail.com',
-    '  father':'allsprayorders@gmail.com'
-}
 
 nospace = lambda value: value.replace(" ","")
 
