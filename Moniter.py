@@ -37,9 +37,9 @@ if __name__ == "__main__":
             current_time = datetime.now().strftime("%I:%M %p")
             if runningOrNot("chrome"):
                 sendEmail(
-                    "aryanjagan7@gmail.com",
-                    "#Aryan2007",
-                    "dselvajagan@gmail.com",
+                    "your_email",
+                    "your_pasword",
+                    "person_to_send_email",
                     "Bad News",
                     f"Your Brother Was Playing Games In Your Laptop At {current_time} Please Warn Him"
                     )
